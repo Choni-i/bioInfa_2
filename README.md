@@ -69,3 +69,17 @@ icgc_table <- as.data.frame(fread("ENSG00000169032_distribution_2023_03_22_12_10
 DT::datatable(icgc_table)
 ```
 <br/>
+
+Рассмотрим донора [DO52740](https://dcc.icgc.org/donors/DO52740), его мы выбрали рассмотрев одно из исследований ([UCEC-US](https://dcc.icgc.org/projects/CMDI-UK), в котором встречались мутации MAP2K1
+
+```{r ICGC DO52740,warning=FALSE}
+DO52740 <- as.data.frame(fread("DO52740.tsv"))
+DT::datatable(DO52740)
+```
+<br/><br/>
+У данного донора имеется 5 мутаций в рассматриваемом гене ([ENSG00000121879](https://dcc.icgc.org/genes/ENSG00000121879?mutations=%7B%22from%22:1%7D))
+
+```{r MAP2K1}
+DO52740Lines = readLines("DO52740.tsv")
+sum(grepl(pattern = "ENSG00000169032", x = DO52740Lines))
+```

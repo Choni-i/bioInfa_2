@@ -29,7 +29,7 @@ data <- as.data.frame(fread("NCG_cancerdrivers_annotation_supporting_evidence.ts
 DT::datatable(data)
 ```
 <br/>
-Мы выбрали ген PIK3CA, и нашли его в [IntOGen](https://www.intogen.org/search?gene=PIK3CA)<br/>
+Мы выбрали ген MAP2K1, и нашли его в [IntOGen](https://www.intogen.org/search?gene=MAP2K1)<br/>
 <br/>
 У данного гена есть мутации связанные со многими типами рака:
 
@@ -37,6 +37,7 @@ DT::datatable(data)
 IntOGen_methods <- as.data.frame(fread("IntOGen-Methods-MAP2K1.tsv"))
 DT::datatable(IntOGen_methods)
 ```
+
 ```
 A data.frame: 6 × 4
 Cancer type	Methods	Samples	Samples (%)
@@ -47,11 +48,15 @@ Diffuse large B-cell lymphoma	combination	10	2.71
 Lung adenocarcinoma	HotMAPS	8	1.06
 Non small cell lung cancer	MutPanning	6	1.56
 Bladder cancer	CLUSTL	4	0.49
+
 ```
 
+
+Большая часть мутаций являются точечными (80% всех мутаций данного гена приходятся на missense-мутации, которые являются точечными), но также встречаются и структурные
 <br/>
-Большая часть мутаций являются точечными (97% всех мутаций данного гена приходятся на missense-мутации, которые являются точечными), но также встречаются и структурные
 ![](Pic1.png)
+<br/>
+
 ```{r IntOGen mutations}
 IntOGen_mutations <- as.data.frame(fread("IntOGen-Distribution-MAP2K1.tsv"))
 DT::datatable(IntOGen_mutations)
@@ -63,3 +68,4 @@ DT::datatable(IntOGen_mutations)
 icgc_table <- as.data.frame(fread("ENSG00000169032_distribution_2023_03_22_12_10_47.tsv"))
 DT::datatable(icgc_table)
 ```
+<br/>

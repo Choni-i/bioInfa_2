@@ -91,25 +91,25 @@ sum(grepl(pattern = "ENSG00000169032", x = DO52740Lines))
 [RUNX1](https://dcc.icgc.org/genes/ENSG00000198796), у данного донора в этом гене можно наблюдать 4 мутаций,
 
 ```{r RUNX1}
-sum(grepl(pattern = "ENSG00000159216", x = DO41337Lines))
+sum(grepl(pattern = "ENSG00000159216", x = DO52740Lines))
 ```
 
 [TGFBR3](https://dcc.icgc.org/genes/ENSG00000069702), наблюдаются 14 мутаций,
 
 ```{r TGFBR3}
-sum(grepl(pattern = "ENSG00000069702", x = DO41337Lines))
+sum(grepl(pattern = "ENSG00000069702", x = DO52740Lines))
 ```
 
 [CSMD2](https://dcc.icgc.org/genes/ENSG00000121904), наблюдаются 8 мутации,
 
 ```{r CSMD2}
-sum(grepl(pattern = "ENSG00000121904", x = DO41337Lines))
+sum(grepl(pattern = "ENSG00000121904", x = DO52740Lines))
 ```
 
 [TET2](https://dcc.icgc.org/genes/ENSG00000168769), наблюдаются 5 мутаций
 
 ```{r TET2}
-sum(grepl(pattern = "ENSG00000168769", x = DO41337Lines))
+sum(grepl(pattern = "ENSG00000168769", x = DO52740Lines))
 ```
 Фото из ноутбука:
 <br/>

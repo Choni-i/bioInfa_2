@@ -111,7 +111,7 @@ sum(grepl(pattern = "ENSG00000121904", x = DO41337Lines))
 ```{r TET2}
 sum(grepl(pattern = "ENSG00000168769", x = DO41337Lines))
 ```
-
+Фото из ноутбука:
 <br/>
 ![](Pic3.png)
 <br/>

@@ -94,20 +94,20 @@ sum(grepl(pattern = "ENSG00000169032", x = DO52740Lines))
 sum(grepl(pattern = "ENSG00000159216", x = DO41337Lines))
 ```
 
-[BCOR](https://dcc.icgc.org/genes/ENSG00000183337), наблюдаются 17 мутаций,
+[TGFBR3](https://dcc.icgc.org/genes/ENSG00000069702), наблюдаются 14 мутаций,
 
-```{r BCOR}
-sum(grepl(pattern = "ENSG00000183337", x = DO41337Lines))
+```{r TGFBR3}
+sum(grepl(pattern = "ENSG00000069702", x = DO41337Lines))
 ```
 
-[CCND1](https://dcc.icgc.org/genes/ENSG00000110092), наблюдаются 4 мутации,
+[CSMD2](https://dcc.icgc.org/genes/ENSG00000121904), наблюдаются 8 мутации,
 
-```{r CCND1}
-sum(grepl(pattern = "ENSG00000110092", x = DO41337Lines))
+```{r CSMD2}
+sum(grepl(pattern = "ENSG00000121904", x = DO41337Lines))
 ```
 
-[ERBB2](https://dcc.icgc.org/genes/ENSG00000141736), наблюдаются 11 мутаций
+[TET2](https://dcc.icgc.org/genes/ENSG00000168769), наблюдаются 5 мутаций
 
-```{r ERBB2}
-sum(grepl(pattern = "ENSG00000141736", x = DO41337Lines))
+```{r TET2}
+sum(grepl(pattern = "ENSG00000168769", x = DO41337Lines))
 ```

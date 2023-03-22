@@ -69,7 +69,7 @@ DT::datatable(icgc_table)
 ```
 <br/>
 
-Рассмотрим донора [DO52740](https://dcc.icgc.org/donors/DO52740), его мы выбрали рассмотрев одно из исследований ([UCEC-US](https://dcc.icgc.org/projects/CMDI-UK)), в котором встречались мутации MAP2K1
+Рассмотрим донора [DO52740](https://dcc.icgc.org/donors/DO52740), его мы выбрали рассмотрев одно из исследований ([CMDI-UK](https://dcc.icgc.org/projects/CMDI-UK)), в котором встречались мутации MAP2K1
 
 ```{r ICGC DO52740,warning=FALSE}
 DO52740 <- as.data.frame(fread("DO52740.tsv"))
@@ -84,4 +84,29 @@ DT::datatable(DO52740)
 ```{r MAP2K1}
 DO52740Lines = readLines("DO52740.tsv")
 sum(grepl(pattern = "ENSG00000169032", x = DO52740Lines))
+```
+Исследование [CMDI-UK](https://dcc.icgc.org/projects/CMDI-UK) рассматривало Хронические миелоидные расстройства (Chronic Myeloid Disorders), а следовательно часть доноров данной выборки имеет мутации связанные с повышенным риском возникновения данного заболевания. Тогда мы можем рассмотреть еще 4 гена из [базы генов рака](http://ncg.kcl.ac.uk/download.php), чьи мутации связаны с данным видом рака (chronic_myeloid_leukemia в поле cancer_type), например:
+<br/><br/>
+[RUNX1](https://dcc.icgc.org/genes/ENSG00000198796), у данного донора в этом гене можно наблюдать 4 мутаций,
+
+```{r RUNX1}
+sum(grepl(pattern = "ENSG00000159216", x = DO41337Lines))
+```
+
+[BCOR](https://dcc.icgc.org/genes/ENSG00000183337), наблюдаются 17 мутаций,
+
+```{r BCOR}
+sum(grepl(pattern = "ENSG00000183337", x = DO41337Lines))
+```
+
+[CCND1](https://dcc.icgc.org/genes/ENSG00000110092), наблюдаются 4 мутации,
+
+```{r CCND1}
+sum(grepl(pattern = "ENSG00000110092", x = DO41337Lines))
+```
+
+[ERBB2](https://dcc.icgc.org/genes/ENSG00000141736), наблюдаются 11 мутаций
+
+```{r ERBB2}
+sum(grepl(pattern = "ENSG00000141736", x = DO41337Lines))
 ```

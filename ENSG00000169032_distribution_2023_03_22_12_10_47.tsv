@@ -1,0 +1,64 @@
+Project	Site	Tumour Type	Tumour Subtype	Number of donors with the current gene containing simple somatic mutations in the current project	Number of SSM-tested donors in the current project	Percentage of donors with the current gene	Mutations
+Uterine Cancer - Carcinosarcoma	Uterus	Uterine cancer	Carcinosarcoma		20	0.2	5
+Prostate Cancer - Adenocarcinoma	Prostate	Prostate cancer	Adenocarcinoma		25	0.2	5
+Benign Liver Tumour - FR	Liver	Liver cancer	Hepatocellular adenoma		32	0.0625	2
+Pancreatic Endocrine Neoplasms - IT	Pancreas	Rare Pancreatic Tumors	Enteropancreatic endocrine tumors and rare pancreatic exocrine tumors		37	0.10810810810810811	7
+Lymphoid Neoplasm Diffuse Large B-cell Lymphoma - TCGA, US	Blood	Blood cancer	Lymphoid neoplasm diffuse large B-cell lymphoma		38	0.02631578947368421	1
+Thyroid Cancer - CN	Head and neck	Thyroid cancer	Papillary carcinoma		50	0.12	8
+Blood Cancer - T-cell and NK-cell lymphoma - SG	Blood	Blood cancer	T-cell and NK-cell lymphoma		50	0.06	4
+Breast Cancer - Very young women	Breast	Breast cancer	Very young women		50	0.02	1
+Prostate Cancer - CN	Prostate	Prostate cancer			65	0.046153846153846156	3
+Pancreatic Cancer Endocrine neoplasms - AU	Pancreas	Pancreatic cancer	Endocrine neoplasms		52	0.09615384615384616	6
+Soft tissue cancer - Leiomyosarcoma	Mesenchymal	Soft Tissue cancer	Leiomyosarcoma		67	0.7313432835820896	126
+Biliary Tract Cancer - SG	Gall Bladder	Biliary Tract cancer	Gall bladder cancer / Cholangiocarcinoma		71	0.5915492957746479	41
+Ovarian Cancer - AU	Ovary	Ovarian cancer	Serous cystadenocarcinoma		93	0.23655913978494625	28
+Skin Adenocarcinoma - BR	Skin	Melanoma			100	0.51	113
+Bladder Cancer - CN	Bladder	Bladder cancer	Urothelial carcinoma		103	0.009708737864077669	1
+Soft Tissue cancer - Ewing sarcoma - FR	Bone	Bone cancer	Ewing sarcoma		98	0.01020408163265306	1
+Breast Cancer - FR	Breast	Breast cancer	Subtype defined by an amplification of the HER2 gene		72	0.2361111111111111	20
+Pediatric Medulloblastoma - CA	Brain	Brain cancer	Pediatric Medulloblastoma		112	0.044642857142857144	5
+Gastric Cancer - CN	Stomach	Gastric cancer	Intestinal- and diffuse-type		123	0.14634146341463414	26
+Bone Cancer - UK	Bone	Bone cancer	Osteosarcoma / chondrosarcoma / rare subtypes		130	0.05384615384615385	7
+Chronic Myeloid Disorders - UK	Blood	Chronic Myeloid Disorders	Myelodysplastic Syndromes, Myeloproliferative Neoplasms &amp; Other Chronic Myeloid Malignancies		136	0.014705882352941176	2
+Breast Triple Negative/Lobular Cancer - UK	Breast	Breast cancer	Triple Negative/lobular/other		141	0.09929078014184398	18
+Lung Cancer - KR	Lung	Lung cancer	Adenocarcinoma, Squamous cell carcinoma		170	0.14705882352941177	37
+Rectum Adenocarcinoma - TCGA, US	Colorectal	Rectal cancer	Adenocarcinoma		143	0.013986013986013986	2
+Oral Cancer - IN	Head and neck	Oral cancer	Gingivobuccal		178	0.02247191011235955	6
+Skin Cancer - AU	Skin	Skin cancer	Melanoma		183	0.5519125683060109	278
+Pancreatic Cancer - TCGA, US	Pancreas	Pancreatic cancer	Adenocarcinoma		177	0.005649717514124294	1
+Early Onset Prostate Cancer - DE	Prostate	Prostate cancer	Early Onset		202	0.09405940594059406	22
+Acute Myeloid Leukemia - KR	Blood	Blood cancer	Acute myeloid leukaemia		205	0.06341463414634146	53
+Prostate Adenocarcinoma - UK	Prostate	Prostate cancer	Adenocarcinoma		140	0.09285714285714286	14
+Biliary Tract Cancer - JP	Gall Bladder	Biliary Tract cancer	Multiple histological subtypes		239	0.008368200836820083	2
+Thyroid Cancer - SA	Head and neck	Thyroid cancer	Papillary thyroid carcinoma		243	0.00411522633744856	1
+Malignant Lymphoma - DE	Blood	Malignant Lymphoma	Germinal center B-cell derived lymphomas		241	0.2033195020746888	93
+Liver Cancer - RIKEN, JP	Liver	Liver cancer	Hepatocellular carcinoma (Virus associated)		258	0.2751937984496124	95
+Pediatric Brain Tumor - Multiple subtypes	Brain	Pediatric Brain Tumor	Multiple subtypes		186	0.11290322580645161	106
+Cervical Squamous Cell Carcinoma - TCGA, US	Cervix	Cervical cancer	Cervical squamous cell carcinoma		289	0.02768166089965398	9
+Pancreatic Cancer - CA	Pancreas	Pancreatic cancer	Ductal adenocarcinoma		268	0.10820895522388059	41
+Colorectal Cancer - CN	Colorectal	Colorectal cancer	Adenocarcinoma, non-Western		321	0.056074766355140186	35
+Esophageal Cancer - CN	Esophagus	Esophageal cancer	Squamous carcinoma		332	0.006024096385542169	2
+Liver Cancer - FR	Liver	Liver cancer	Hepatocellular carcinoma (Secondary to alcohol and adiposity)		252	0.05555555555555555	25
+Liver Hepatocellular carcinoma - TCGA, US	Liver	Liver cancer	Hepatocellular carcinoma		364	0.013736263736263736	5
+Prostate Adenocarcinoma - CA	Prostate	Prostate cancer	Adenocarcinoma		306	0.0457516339869281	15
+Liver Cancer - NCC, JP	Liver	Liver cancer	Hepatocellular carcinoma (Virus associated)		394	0.04314720812182741	22
+Liver Cancer - CN	Liver	Liver cancer	Hepatocellular carcinoma HBV-associated		402	0.12437810945273632	74
+Esophageal Adenocarcinoma - UK	Esophagus	Esophageal cancer	Esophageal adenocarcinoma		409	0.2787286063569682	250
+Bladder Urothelial Cancer - TCGA, US	Bladder	Bladder cancer	Invasive Urothelial Bladder cancer		411	0.0072992700729927005	3
+Pancreatic Cancer - AU	Pancreas	Pancreatic cancer	Ductal adenocarcinoma		391	0.06905370843989769	33
+Gastric Adenocarcinoma - TCGA, US	Stomach	Gastric cancer	Adenocarcinoma		439	0.02050113895216401	7
+Renal Cell Cancer - EU/FR	Kidney	Renal cancer	Renal cell carcinoma (Focus on but not limited to clear cell subtype)		422	0.03317535545023697	18
+Colon Adenocarcinoma - TCGA, US	Colorectal	Colon cancer	Adenocarcinoma		402	0.03233830845771144	13
+Skin Cutaneous melanoma - TCGA, US	Skin	Skin cancer	Cutaneous melanoma		466	0.07510729613733906	21
+Lung Squamous Cell Carcinoma - TCGA, US	Lung	Lung cancer	Squamous cell carcinoma		485	0.016494845360824743	8
+Head and Neck Thyroid Carcinoma - TCGA, US	Head and neck	Head and Neck cancer	Thyroid carcinoma		492	0.0020325203252032522	1
+Lung Adenocarcinoma - TCGA, US	Lung	Lung cancer	Adenocarcinoma		516	0.01937984496124031	9
+Head and Neck Squamous Cell Carcinoma - TCGA, US	Head and neck	Head and Neck cancer	Squamous cell carcinoma		508	0.013779527559055118	7
+Pediatric Brain Cancer - DE	Brain	Pediatric Brain Tumors	Medulloblastoma &amp; Pediatric Pilocytic Astrocytoma		499	0.04008016032064128	31
+Uterine Corpus Endometrial Carcinoma- TCGA, US	Uterus	Endometrial cancer	Uterine corpus endometrial carcinoma		531	0.054613935969868174	35
+Chronic Lymphocytic Leukemia - ES	Blood	Chronic Lymphocytic Leukemia	CLL with mutated and unmutated IgVH		510	0.00980392156862745	5
+Breast ER+ and HER2- Cancer - EU/UK	Breast	Breast cancer	ER+ve, HER2-ve		569	0.15289982425307558	116
+Ovarian Serous Cystadenocarcinoma - TCGA, US	Ovary	Ovarian cancer	Serous cystadenocarcinoma		426	0.004694835680751174	2
+Gastric Cancer - JP	Stomach	Gastric cancer	Multiple histological subtypes (Adenocarcinoma and specific subtypes by WHO classification)		585	0.022222222222222223	15
+Brain Glioblastoma Multiforme - TCGA, US	Brain	Brain cancer	Glioblastoma multiforme		388	0.005154639175257732	2
+Breast Cancer - TCGA, US	Breast	Breast cancer	Ductal &amp; lobular		1020	0.0058823529411764705	8

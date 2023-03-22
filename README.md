@@ -37,6 +37,18 @@ DT::datatable(data)
 IntOGen_methods <- as.data.frame(fread("IntOGen-Methods-MAP2K1.tsv"))
 DT::datatable(IntOGen_methods)
 ```
+```
+A data.frame: 6 × 4
+Cancer type	Methods	Samples	Samples (%)
+<chr>	<chr>	<int>	<dbl>
+Cutaneous melanoma of the skin	CBaSEdNdScvHotMAPSMutPanningCLUSTL	46	4.38
+Colorectal adenocarcinoma	HotMAPSMutPanning	11	0.86
+Diffuse large B-cell lymphoma	combination	10	2.71
+Lung adenocarcinoma	HotMAPS	8	1.06
+Non small cell lung cancer	MutPanning	6	1.56
+Bladder cancer	CLUSTL	4	0.49
+```
+
 <br/>
 Большая часть мутаций являются точечными (97% всех мутаций данного гена приходятся на missense-мутации, которые являются точечными), но также встречаются и структурные
 ![](Pic1.png)

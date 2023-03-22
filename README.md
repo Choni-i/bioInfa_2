@@ -51,7 +51,6 @@ Bladder cancer	CLUSTL	4	0.49
 
 ```
 
-
 Большая часть мутаций являются точечными (80% всех мутаций данного гена приходятся на missense-мутации, которые являются точечными), но также встречаются и структурные
 <br/>
 ![](Pic1.png)
@@ -77,7 +76,7 @@ DO52740 <- as.data.frame(fread("DO52740.tsv"))
 DT::datatable(DO52740)
 ```
 <br/><br/>
-У данного донора имеется 5 мутаций в рассматриваемом гене ([ENSG00000121879](https://dcc.icgc.org/genes/ENSG00000121879?mutations=%7B%22from%22:1%7D))
+У данного донора имеется 4 мутаций в рассматриваемом гене ([ENSG00000169032]([https://dcc.icgc.org/genes/ENSG00000121879?mutations=%7B%22from%22:1%7D](https://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000169032;r=15:66386837-66491656)))
 
 ```{r MAP2K1}
 DO52740Lines = readLines("DO52740.tsv")

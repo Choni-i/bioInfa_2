@@ -1,10 +1,4 @@
 # bioInfa_2
----
-output: 
-      html_document:
-        keep_md: true
----
-
 
 ### Цели : 
 
